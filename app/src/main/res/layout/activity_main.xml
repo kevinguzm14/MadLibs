@@ -87,7 +87,7 @@
             android:hint="Verb" />
 
         <EditText
-            android:id="@+id/editTextText7"
+            android:id="@+id/et_name2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -95,7 +95,7 @@
             android:hint="Name" />
 
         <EditText
-            android:id="@+id/et_songname"
+            android:id="@+id/et_song"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -111,7 +111,7 @@
             android:hint="Adjective" />
 
         <EditText
-            android:id="@+id/et_name2"
+            android:id="@+id/et_name3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
