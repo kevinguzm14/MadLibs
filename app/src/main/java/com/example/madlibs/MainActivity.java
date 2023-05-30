@@ -41,6 +41,7 @@ public class MainActivity extends AppCompatActivity {
         etAdjective = findViewById(R.id.et_adjective);
         etName3 = findViewById(R.id.et_name3);
         etAdjective2 = findViewById(R.id.et_adjective2);
+        btnNextPage = findViewById(R.id.btn_generatestory);
 
 
 
