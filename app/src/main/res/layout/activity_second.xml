@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/birthdaypartyy_bg"
     tools:context=".SecondActivity">
 
     <androidx.constraintlayout.widget.Guideline
@@ -32,15 +33,26 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_begin="658dp" />
+        app:layout_constraintGuide_begin="702dp" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/tv_story"
         android:layout_width="286dp"
         android:layout_height="391dp"
-        android:text="Story:"
+        android:textSize="20dp"
+        android:text=""
+        android:textColor="@color/birthdaypartyy_txt_title"
         app:layout_constraintBottom_toTopOf="@+id/guideline9"
         app:layout_constraintEnd_toStartOf="@+id/guideline7"
         app:layout_constraintStart_toStartOf="@+id/guideline6" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="240dp"
+        android:layout_height="348dp"
+        app:layout_constraintEnd_toStartOf="@+id/guideline7"
+        app:layout_constraintStart_toStartOf="@+id/guideline6"
+        app:srcCompat="@drawable/party"
+        tools:layout_editor_absoluteY="-8dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

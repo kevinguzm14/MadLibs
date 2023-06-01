@@ -58,13 +58,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                 String story = "The Birthday Party!";
-                 story += "\n Yesterday I went to" + etName.getText() + "'s" + etAge.getText() + "th" + "birthday party. ";
-                 story += "\n I got him/her a" + etNoun.getText() + ".";
-                 story += "\n We started by playing" + etActivity.getText() + " and then there was a"+ etVerb.getText() + " party.";
+                 String story = "The Birthday Party!!!";
+                 story += "\n Yesterday I went to " + etName.getText() + "'s " + etAge.getText() + "th" + " birthday party. ";
+                 story += "\n I got him/her a " + etNoun.getText() + ".";
+                 story += "\n We started by playing " + etActivity.getText() + " and then there was a"+ etVerb.getText() + " party.";
                  story += "\n Before cutting the cake everyone " + etVerb2.getText() + ". " + etName2.getText() + "Started to sing" + etSong.getText() + ". ";
                  story += "\n I had a" + etAdjective.getText() + " time at the party and enjoyed celebrating" + etName3.getText();
-                 story += "\n He/She is such a" + etAdjective2.getText() + "friend.";
+                 story += "\n He/She is such a " + etAdjective2.getText() + "friend.";
 
                  secondActivity.putExtra("story",story);
 

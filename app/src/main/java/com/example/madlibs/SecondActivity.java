@@ -9,7 +9,7 @@ import android.widget.TextView;
 public class SecondActivity extends AppCompatActivity {
 
     TextView tvTopText;
-    TextView tvBottomText;
+    TextView tvStory;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,6 +20,10 @@ public class SecondActivity extends AppCompatActivity {
         Intent intent = getIntent();
 
         String story = intent.getStringExtra("story");
+
+        tvStory = findViewById(R.id.tv_story);
+
+        tvStory.setText(story);
 
 
     }
